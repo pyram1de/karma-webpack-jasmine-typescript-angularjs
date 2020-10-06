@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "karma start karma.conf.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,9 @@
     "angular": "^1.8.1",
     "angular-route": "^1.8.1",
     "html-webpack-plugin": "^4.5.0",
+    "jasmine": "^3.6.1",
+    "karma-sourcemap-loader": "^0.3.8",
+    "karma-webpack": "^4.0.2",
     "ts-loader": "^8.0.4",
     "typescript": "^4.0.3",
     "webpack": "^4.44.2",
@@ -30,6 +33,10 @@
   "devDependencies": {
     "@types/angular": "^1.7.3",
     "@types/angular-route": "^1.7.1",
+    "@types/jasmine": "^3.5.14",
+    "karma": "^5.2.3",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^4.0.1",
     "webpack-dev-server": "^3.11.0"
   }
 }
