@@ -1,0 +1,35 @@
+{
+  "name": "karma-webpack-jasmine-typescript-angularjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pyram1de/karma-webpack-jasmine-typescript-angularjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pyram1de/karma-webpack-jasmine-typescript-angularjs/issues"
+  },
+  "homepage": "https://github.com/pyram1de/karma-webpack-jasmine-typescript-angularjs#readme",
+  "dependencies": {
+    "angular": "^1.8.1",
+    "angular-route": "^1.8.1",
+    "html-webpack-plugin": "^4.5.0",
+    "ts-loader": "^8.0.4",
+    "typescript": "^4.0.3",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "@types/angular": "^1.7.3",
+    "@types/angular-route": "^1.7.1",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
