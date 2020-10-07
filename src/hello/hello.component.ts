@@ -1,6 +1,6 @@
 import {IComponentOptions} from "angular";
 
-class HelloComponentController {
+export class HelloComponentController {
     constructor() {
         console.log('in the constructor');
     }

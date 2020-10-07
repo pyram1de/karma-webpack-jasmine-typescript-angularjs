@@ -1,22 +1,20 @@
-import { HelloComponent } from "./hello.component";
+import { GoodbyeComponent } from "./goodbye.component";
 import {IAngularStatic} from "angular";
 declare var angular: IAngularStatic;
-const template = HelloComponent.template;
-
-
+const template = GoodbyeComponent.template;
 
 describe("A suite", () => {
 
     beforeEach(() => {
         angular
-            .module('hello.component', [])
-            .component('helloWorld', HelloComponent);
+            .module('goodbye.component', [])
+            .component('goodbyeComponent', GoodbyeComponent);
         angular.mock.module('myApp');
     });
 
     it('Component should exist',
         angular.mock.inject(($componentController: any) => {
-            const component = $componentController('helloWorld', {}, {});
+            const component = $componentController('goodbyeComponent', {}, {});
             expect(component)
                 .toBeDefined();
         }),
